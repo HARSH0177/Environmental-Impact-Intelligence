@@ -23,9 +23,26 @@
 ## 🛰️ Visual System Diagnostics & Satellite Fusion Telemetry
 
 <div align="center">
+
+### 1. 🌲 Satellite Deforestation Detection & NDVI Canopy Health Mapping
+<img src="assets/deforestation_ndvi_satellite_map.jpg" alt="Sentinel-2 Optical vs NDVI Deforestation Alert Map" width="95%" />
+<br>
+<sub><i>Figure 1: Sentinel-2 true-color optical canopy vs. false-color Normalized Difference Vegetation Index (NDVI) heatmap identifying clearings and active deforestation boundaries with 92.4% classification confidence.</i></sub>
+
+<br><br>
+
+### 2. 📈 Multi-City PM2.5 Air Quality Forecasting & Ground Telemetry Dashboard
+<img src="assets/pm25_forecasting_telemetry_dashboard.jpg" alt="PM2.5 Forecasting Time-Series and CPCB Sensor Stream" width="95%" />
+<br>
+<sub><i>Figure 2: Real-time time-series PM2.5 concentration level forecasting vs. actual observations across multi-city CPCB stations, demonstrating $R^2 = 0.972$ fusion accuracy with confidence interval bounds and precursor gas tracking (PM10, NO2, SO2, CO).</i></sub>
+
+<br><br>
+
+### 3. 🧩 Multi-Modal Satellite $\times$ Ground End-to-End Fusion Pipeline
 <img src="assets/environmental_intelligence_pipeline.jpg" alt="Environmental Intelligence Architecture and Ground Fusion Pipeline" width="95%" />
 <br>
-<sub><i>Figure 1: End-to-end multi-modal architecture showing optical land cover canopy classification, CPCB temporal pollutant forecasting, and Sentinel-2 NDVI spatiotemporal fusion across 29 Indian cities.</i></sub>
+<sub><i>Figure 3: High-level architectural flowchart connecting optical land cover classification, 5.7M CPCB lag modeling, and Sentinel-2 NDVI spatiotemporal fusion across 29 Indian cities.</i></sub>
+
 </div>
 
 ---
@@ -92,6 +109,9 @@ Ablation study over 29 Indian cities joining Sentinel-2 NDVI canopy index with g
 ```text
 environmental-impact-intelligence/
 ├── assets/                            # Architecture diagrams & visual telemetry figures
+│   ├── deforestation_ndvi_satellite_map.jpg
+│   ├── pm25_forecasting_telemetry_dashboard.jpg
+│   └── environmental_intelligence_pipeline.jpg
 ├── models/
 │   ├── deforestation_classifier.py    # MobileNetV2 transfer learning & fine-tuning
 │   ├── pm25_forecaster.py             # Lag feature engineering & XGBoost model
