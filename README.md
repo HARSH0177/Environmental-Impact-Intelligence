@@ -20,6 +20,16 @@
 
 ---
 
+## 🛰️ Visual System Diagnostics & Satellite Fusion Telemetry
+
+<div align="center">
+<img src="assets/environmental_intelligence_pipeline.jpg" alt="Environmental Intelligence Architecture and Ground Fusion Pipeline" width="95%" />
+<br>
+<sub><i>Figure 1: End-to-end multi-modal architecture showing optical land cover canopy classification, CPCB temporal pollutant forecasting, and Sentinel-2 NDVI spatiotemporal fusion across 29 Indian cities.</i></sub>
+</div>
+
+---
+
 ## 📌 Executive Architecture & Methodological Overview
 
 **Environmental-Impact-Intelligence** provides an end-to-end computational pipeline across three complementary environmental modeling domains:
@@ -81,6 +91,7 @@ Ablation study over 29 Indian cities joining Sentinel-2 NDVI canopy index with g
 
 ```text
 environmental-impact-intelligence/
+├── assets/                            # Architecture diagrams & visual telemetry figures
 ├── models/
 │   ├── deforestation_classifier.py    # MobileNetV2 transfer learning & fine-tuning
 │   ├── pm25_forecaster.py             # Lag feature engineering & XGBoost model
