@@ -1,0 +1,227 @@
+[
+  {
+    "id": "item_01",
+    "name": "Chicken Biryani (Single Serving, 350g)",
+    "category": "meal",
+    "ground_truth_co2e_kg": 2.85,
+    "tolerance_pct": 20,
+    "source": "Agribalyse 3.1 / Our World in Data (Poultry + Basmati Rice)",
+    "estimated_co2e_kg": 2.90
+  },
+  {
+    "id": "item_02",
+    "name": "Paneer Butter Masala with 2 Roti",
+    "category": "meal",
+    "ground_truth_co2e_kg": 1.75,
+    "tolerance_pct": 20,
+    "source": "Agribalyse 3.1 (Dairy, Ghee & Wheat Flour)",
+    "estimated_co2e_kg": 1.80
+  },
+  {
+    "id": "item_03",
+    "name": "Dal Tadka with Steamed Rice (Veg Thali)",
+    "category": "meal",
+    "ground_truth_co2e_kg": 0.85,
+    "tolerance_pct": 20,
+    "source": "Poore & Nemecek (2018) / Agribalyse (Yellow Lentils & Rice)",
+    "estimated_co2e_kg": 0.90
+  },
+  {
+    "id": "item_04",
+    "name": "Masala Dosa with Sambar & Chutney",
+    "category": "meal",
+    "ground_truth_co2e_kg": 0.65,
+    "tolerance_pct": 20,
+    "source": "Our World in Data (Fermented Rice/Urad Dal)",
+    "estimated_co2e_kg": 0.70
+  },
+  {
+    "id": "item_05",
+    "name": "Mutton Rogan Josh (Single Serving, 300g)",
+    "category": "meal",
+    "ground_truth_co2e_kg": 6.80,
+    "tolerance_pct": 20,
+    "source": "Poore & Nemecek (2018) (Ruminant Smallholder Livestock)",
+    "estimated_co2e_kg": 6.50
+  },
+  {
+    "id": "item_06",
+    "name": "Fresh Cow Milk (1 Litre Pouch)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 1.92,
+    "tolerance_pct": 20,
+    "source": "FAO Dairy Assessment / Our World in Data",
+    "estimated_co2e_kg": 1.90
+  },
+  {
+    "id": "item_07",
+    "name": "Basmati Rice (1 kg Bag)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 2.70,
+    "tolerance_pct": 20,
+    "source": "IRRI & Poore (Flooded Paddy Methane Emissions)",
+    "estimated_co2e_kg": 2.60
+  },
+  {
+    "id": "item_08",
+    "name": "Local Tomatoes (1 kg)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 0.45,
+    "tolerance_pct": 20,
+    "source": "Agribalyse (Open-Field Horticulture)",
+    "estimated_co2e_kg": 0.50
+  },
+  {
+    "id": "item_09",
+    "name": "Potatoes (1 kg)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 0.35,
+    "tolerance_pct": 20,
+    "source": "Poore & Nemecek (Tuber Root Crops)",
+    "estimated_co2e_kg": 0.38
+  },
+  {
+    "id": "item_10",
+    "name": "Toor Dal / Pigeon Peas (1 kg)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 0.95,
+    "tolerance_pct": 20,
+    "source": "Our World in Data (Nitrogen-Fixing Legumes)",
+    "estimated_co2e_kg": 1.00
+  },
+  {
+    "id": "item_11",
+    "name": "Refined Sunflower Cooking Oil (1 Litre)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 3.10,
+    "tolerance_pct": 20,
+    "source": "Agribalyse (Crushing & Refining Lifecycle)",
+    "estimated_co2e_kg": 3.20
+  },
+  {
+    "id": "item_12",
+    "name": "Whole Wheat Atta (5 kg Bag)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 4.10,
+    "tolerance_pct": 20,
+    "source": "Poore & Nemecek (0.82 kg CO2e / kg flour)",
+    "estimated_co2e_kg": 4.00
+  },
+  {
+    "id": "item_13",
+    "name": "Broiler Eggs (Pack of 6)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 1.45,
+    "tolerance_pct": 20,
+    "source": "Agribalyse (0.24 kg CO2e per 55g egg)",
+    "estimated_co2e_kg": 1.50
+  },
+  {
+    "id": "item_14",
+    "name": "Bananas (1 Dozen, ~1.5 kg)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 0.98,
+    "tolerance_pct": 20,
+    "source": "Our World in Data (Tropical Fruit Transport)",
+    "estimated_co2e_kg": 0.95
+  },
+  {
+    "id": "item_15",
+    "name": "Cheddar / Processed Cheese Block (200g)",
+    "category": "grocery",
+    "ground_truth_co2e_kg": 2.10,
+    "tolerance_pct": 20,
+    "source": "Poore & Nemecek (Concentrated Dairy Fat)",
+    "estimated_co2e_kg": 2.00
+  },
+  {
+    "id": "item_16",
+    "name": "Urban Metro Rail Trip (15 km Commute)",
+    "category": "transport",
+    "ground_truth_co2e_kg": 0.42,
+    "tolerance_pct": 20,
+    "source": "DMRC Environmental Assessment (28g CO2e / pass-km)",
+    "estimated_co2e_kg": 0.45
+  },
+  {
+    "id": "item_17",
+    "name": "Petrol Hatchback Solo Drive (15 km Commute)",
+    "category": "transport",
+    "ground_truth_co2e_kg": 2.75,
+    "tolerance_pct": 20,
+    "source": "ARAI / DEFRA (183g CO2e / km)",
+    "estimated_co2e_kg": 2.80
+  },
+  {
+    "id": "item_18",
+    "name": "Electric Scooter Commute (15 km, Indian Grid)",
+    "category": "transport",
+    "ground_truth_co2e_kg": 0.36,
+    "tolerance_pct": 20,
+    "source": "CEA India Grid Baseline (0.71 kg CO2/kWh, 34 Wh/km)",
+    "estimated_co2e_kg": 0.35
+  },
+  {
+    "id": "item_19",
+    "name": "Diesel City Bus Commute (15 km)",
+    "category": "transport",
+    "ground_truth_co2e_kg": 0.98,
+    "tolerance_pct": 20,
+    "source": "ARAI Urban Transit Factor (65g CO2e / pass-km)",
+    "estimated_co2e_kg": 0.95
+  },
+  {
+    "id": "item_20",
+    "name": "Domestic Flight Economy (Delhi to Mumbai, 1150 km)",
+    "category": "transport",
+    "ground_truth_co2e_kg": 142.50,
+    "tolerance_pct": 20,
+    "source": "ICAO Carbon Calculator with Radiative Forcing (124g / km)",
+    "estimated_co2e_kg": 145.00
+  },
+  {
+    "id": "item_21",
+    "name": "1.5 Ton Split AC (8 Hours Night Run, 3-Star)",
+    "category": "energy",
+    "ground_truth_co2e_kg": 7.10,
+    "tolerance_pct": 20,
+    "source": "BEE India Rating (1.25 kWh/hr * 8 * 0.71 kg CO2/kWh)",
+    "estimated_co2e_kg": 7.20
+  },
+  {
+    "id": "item_22",
+    "name": "Residential Monthly Electricity (250 kWh, Indian Grid)",
+    "category": "energy",
+    "ground_truth_co2e_kg": 177.50,
+    "tolerance_pct": 20,
+    "source": "Central Electricity Authority (CEA) v19 CO2 Baseline Database",
+    "estimated_co2e_kg": 175.00
+  },
+  {
+    "id": "item_23",
+    "name": "LPG Domestic Cooking Cylinder (14.2 kg Refill)",
+    "category": "energy",
+    "ground_truth_co2e_kg": 42.60,
+    "tolerance_pct": 20,
+    "source": "IPCC Emission Factor Database (3.0 kg CO2 / kg LPG)",
+    "estimated_co2e_kg": 43.00
+  },
+  {
+    "id": "item_24",
+    "name": "Smartphone Overnight Full Charge (15 Wh)",
+    "category": "energy",
+    "ground_truth_co2e_kg": 0.011,
+    "tolerance_pct": 25,
+    "source": "CEA Grid Factor (0.71 kg CO2/kWh * 0.015 kWh)",
+    "estimated_co2e_kg": 0.012
+  },
+  {
+    "id": "item_25",
+    "name": "Solar Rooftop Net Generation (100 kWh Offset)",
+    "category": "energy",
+    "ground_truth_co2e_kg": -71.00,
+    "tolerance_pct": 20,
+    "source": "CEA India Grid Displacement Baseline",
+    "estimated_co2e_kg": -71.00
+  }
+]

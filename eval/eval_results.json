@@ -1,0 +1,264 @@
+{
+  "benchmark_suite": "CarbonLensAI Systematic Evaluation Harness v1.0",
+  "total_test_cases": 25,
+  "passed_cases": 25,
+  "overall_pass_rate_pct": 100.0,
+  "mean_absolute_error_kg": 0.27,
+  "mean_absolute_percentage_error_mape": 3.95,
+  "root_mean_squared_error_rmse": 0.716,
+  "error_taxonomy_breakdown": {
+    "EXACT_OR_OPTIMAL (<5% error)": 18,
+    "ACCEPTABLE_TOLERANCE (5-20% error)": 7,
+    "OVERESTIMATION (>20% error)": 0,
+    "UNDERESTIMATION (<-20% error)": 0
+  },
+  "category_performance": {
+    "meal": {
+      "cases": 5,
+      "pass_rate_pct": 100.0,
+      "category_mape_pct": 4.52
+    },
+    "grocery": {
+      "cases": 10,
+      "pass_rate_pct": 100.0,
+      "category_mape_pct": 4.66
+    },
+    "transport": {
+      "cases": 5,
+      "pass_rate_pct": 100.0,
+      "category_mape_pct": 3.31
+    },
+    "energy": {
+      "cases": 5,
+      "pass_rate_pct": 100.0,
+      "category_mape_pct": 2.57
+    }
+  },
+  "evaluated_cases": [
+    {
+      "id": "item_01",
+      "name": "Chicken Biryani (Single Serving, 350g)",
+      "category": "meal",
+      "ground_truth_kg": 2.85,
+      "estimated_kg": 2.9,
+      "error_pct": 1.75,
+      "status": "PASS"
+    },
+    {
+      "id": "item_02",
+      "name": "Paneer Butter Masala with 2 Roti",
+      "category": "meal",
+      "ground_truth_kg": 1.75,
+      "estimated_kg": 1.8,
+      "error_pct": 2.86,
+      "status": "PASS"
+    },
+    {
+      "id": "item_03",
+      "name": "Dal Tadka with Steamed Rice (Veg Thali)",
+      "category": "meal",
+      "ground_truth_kg": 0.85,
+      "estimated_kg": 0.9,
+      "error_pct": 5.88,
+      "status": "PASS"
+    },
+    {
+      "id": "item_04",
+      "name": "Masala Dosa with Sambar & Chutney",
+      "category": "meal",
+      "ground_truth_kg": 0.65,
+      "estimated_kg": 0.7,
+      "error_pct": 7.69,
+      "status": "PASS"
+    },
+    {
+      "id": "item_05",
+      "name": "Mutton Rogan Josh (Single Serving, 300g)",
+      "category": "meal",
+      "ground_truth_kg": 6.8,
+      "estimated_kg": 6.5,
+      "error_pct": 4.41,
+      "status": "PASS"
+    },
+    {
+      "id": "item_06",
+      "name": "Fresh Cow Milk (1 Litre Pouch)",
+      "category": "grocery",
+      "ground_truth_kg": 1.92,
+      "estimated_kg": 1.9,
+      "error_pct": 1.04,
+      "status": "PASS"
+    },
+    {
+      "id": "item_07",
+      "name": "Basmati Rice (1 kg Bag)",
+      "category": "grocery",
+      "ground_truth_kg": 2.7,
+      "estimated_kg": 2.6,
+      "error_pct": 3.7,
+      "status": "PASS"
+    },
+    {
+      "id": "item_08",
+      "name": "Local Tomatoes (1 kg)",
+      "category": "grocery",
+      "ground_truth_kg": 0.45,
+      "estimated_kg": 0.5,
+      "error_pct": 11.11,
+      "status": "PASS"
+    },
+    {
+      "id": "item_09",
+      "name": "Potatoes (1 kg)",
+      "category": "grocery",
+      "ground_truth_kg": 0.35,
+      "estimated_kg": 0.38,
+      "error_pct": 8.57,
+      "status": "PASS"
+    },
+    {
+      "id": "item_10",
+      "name": "Toor Dal / Pigeon Peas (1 kg)",
+      "category": "grocery",
+      "ground_truth_kg": 0.95,
+      "estimated_kg": 1.0,
+      "error_pct": 5.26,
+      "status": "PASS"
+    },
+    {
+      "id": "item_11",
+      "name": "Refined Sunflower Cooking Oil (1 Litre)",
+      "category": "grocery",
+      "ground_truth_kg": 3.1,
+      "estimated_kg": 3.2,
+      "error_pct": 3.23,
+      "status": "PASS"
+    },
+    {
+      "id": "item_12",
+      "name": "Whole Wheat Atta (5 kg Bag)",
+      "category": "grocery",
+      "ground_truth_kg": 4.1,
+      "estimated_kg": 4.0,
+      "error_pct": 2.44,
+      "status": "PASS"
+    },
+    {
+      "id": "item_13",
+      "name": "Broiler Eggs (Pack of 6)",
+      "category": "grocery",
+      "ground_truth_kg": 1.45,
+      "estimated_kg": 1.5,
+      "error_pct": 3.45,
+      "status": "PASS"
+    },
+    {
+      "id": "item_14",
+      "name": "Bananas (1 Dozen, ~1.5 kg)",
+      "category": "grocery",
+      "ground_truth_kg": 0.98,
+      "estimated_kg": 0.95,
+      "error_pct": 3.06,
+      "status": "PASS"
+    },
+    {
+      "id": "item_15",
+      "name": "Cheddar / Processed Cheese Block (200g)",
+      "category": "grocery",
+      "ground_truth_kg": 2.1,
+      "estimated_kg": 2.0,
+      "error_pct": 4.76,
+      "status": "PASS"
+    },
+    {
+      "id": "item_16",
+      "name": "Urban Metro Rail Trip (15 km Commute)",
+      "category": "transport",
+      "ground_truth_kg": 0.42,
+      "estimated_kg": 0.45,
+      "error_pct": 7.14,
+      "status": "PASS"
+    },
+    {
+      "id": "item_17",
+      "name": "Petrol Hatchback Solo Drive (15 km Commute)",
+      "category": "transport",
+      "ground_truth_kg": 2.75,
+      "estimated_kg": 2.8,
+      "error_pct": 1.82,
+      "status": "PASS"
+    },
+    {
+      "id": "item_18",
+      "name": "Electric Scooter Commute (15 km, Indian Grid)",
+      "category": "transport",
+      "ground_truth_kg": 0.36,
+      "estimated_kg": 0.35,
+      "error_pct": 2.78,
+      "status": "PASS"
+    },
+    {
+      "id": "item_19",
+      "name": "Diesel City Bus Commute (15 km)",
+      "category": "transport",
+      "ground_truth_kg": 0.98,
+      "estimated_kg": 0.95,
+      "error_pct": 3.06,
+      "status": "PASS"
+    },
+    {
+      "id": "item_20",
+      "name": "Domestic Flight Economy (Delhi to Mumbai, 1150 km)",
+      "category": "transport",
+      "ground_truth_kg": 142.5,
+      "estimated_kg": 145.0,
+      "error_pct": 1.75,
+      "status": "PASS"
+    },
+    {
+      "id": "item_21",
+      "name": "1.5 Ton Split AC (8 Hours Night Run, 3-Star)",
+      "category": "energy",
+      "ground_truth_kg": 7.1,
+      "estimated_kg": 7.2,
+      "error_pct": 1.41,
+      "status": "PASS"
+    },
+    {
+      "id": "item_22",
+      "name": "Residential Monthly Electricity (250 kWh, Indian Grid)",
+      "category": "energy",
+      "ground_truth_kg": 177.5,
+      "estimated_kg": 175.0,
+      "error_pct": 1.41,
+      "status": "PASS"
+    },
+    {
+      "id": "item_23",
+      "name": "LPG Domestic Cooking Cylinder (14.2 kg Refill)",
+      "category": "energy",
+      "ground_truth_kg": 42.6,
+      "estimated_kg": 43.0,
+      "error_pct": 0.94,
+      "status": "PASS"
+    },
+    {
+      "id": "item_24",
+      "name": "Smartphone Overnight Full Charge (15 Wh)",
+      "category": "energy",
+      "ground_truth_kg": 0.011,
+      "estimated_kg": 0.012,
+      "error_pct": 9.09,
+      "status": "PASS"
+    },
+    {
+      "id": "item_25",
+      "name": "Solar Rooftop Net Generation (100 kWh Offset)",
+      "category": "energy",
+      "ground_truth_kg": -71.0,
+      "estimated_kg": -71.0,
+      "error_pct": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
